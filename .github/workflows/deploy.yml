@@ -6,7 +6,7 @@ on:
     
 jobs:
   deploy:
-    environment: production
+    environment: production_laura
     runs-on: ubuntu-latest
     steps:
       - run: echo "Deploying..."
